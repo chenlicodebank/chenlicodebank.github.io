@@ -62,7 +62,7 @@
         - Developed an acceleration framework for building low-latency bio-inspired NNs, using information compression and denoising.
     - title: Research Intern
       institution: "Beijing Academy of Artificial Intelligence, China"
-      year: 2021
+      year: Feb – Jun 2021
       description:
         - "Project: Neuromorphic Computing."
         - Developed low-latency neuromorphic algorithms.
@@ -70,16 +70,16 @@
 - title: Publications
   type: list
   contents:
-    - "Boybat I, Boesch T, Allegra M, et al. <b>Heterogeneous Embedded Neural Processing Units Utilizing PCM-based Analog In-Memory Computing</b>. <i>IEEE International Electron Devices Meeting</i> (Invited paper in IEDM)."
-    - "Li C, Jones E, Furber S. <b>Unleashing the Potential of Spiking Neural Networks by Dynamic Confidence</b>. <i>International Conference on Computer Vision 2023</i> (ICCV)."
-    - "Li C, Ferro E, Lammie C, et al. <b>Efficient Transformer Adaptation for Analog In-Memory Computing via Low-Rank Adapters</b>. <i>Neuromorphic Computing and Engineering</i>."
-    - "Nimbekar A, Katti P, Li C, et al. <b>Hardware-Software Co-optimized Inference Accelerator for Deep Spiking Networks</b>. <i>IEEE International System-on-Chip Conference 2024</i> (SOCC)."
-    - "Katti P, Nimbekar A, Li C, et al. <b>Bayesian Inference Accelerator for Spiking Neural Networks</b>. <i>IEEE International Symposium on Circuits and Systems 2024</i> (ISCAS)."
-    - "Li C, Rajendran B. <b>Noise Adaptor in Spiking Neural Network</b>."
-    - "Li C, Furber S, et al. <b>Quantization Framework for Fast Spiking Neural Networks</b>. <i>Frontiers in Neuroscience</i>, 2022, 16: 918793."
-    - "Li C, Furber S. <b>Towards Biologically-Plausible Neuron Models and Firing Rates in High-Performance Deep Spiking Neural Networks</b>. <i>International Conference on Neuromorphic Systems 2021</i>."
-    - "Chen R, Li C, Li Y, et al. <b>Nanoscale Room-Temperature Multilayer Skyrmionic Synapse for Deep Spiking Neural Networks</b>. <i>Physical Review Applied</i>, 2020, 14(1): 014096."
-    - "Li C, Chen R, Moutafis C, et al. <b>Robustness to Noisy Synaptic Weights in Spiking Neural Networks</b>. <i>International Joint Conference on Neural Networks 2020</i> (IJCNN)."
+    - "Boybat I, Boesch T, Allegra M, et al. <b>Heterogeneous Embedded Neural Processing Units Utilizing PCM-based Analog In-Memory Computing</b>. <i>IEEE International Electron Devices Meeting</i> (Invited paper in IEDM).<br><small>Built an analog chip to accelerate MobileBERT inference compared to running on GPUs.</small>"
+    - "Li C, Jones E, Furber S. <b>Unleashing the Potential of Spiking Neural Networks by Dynamic Confidence</b>. <i>International Conference on Computer Vision 2023</i> (ICCV).<br><small>Proposed a Neural Network decoding method based on temporal confidence.</small>"
+    - "Li C, Ferro E, Lammie C, et al. <b>Efficient Transformer Adaptation for Analog In-Memory Computing via Low-Rank Adapters</b>. <i>Neuromorphic Computing and Engineering</i>.<br><small>Llama 3 8B adaptations on analog hardware via Reinforcement Learning and long Chain-of-Thoughts.</small>"
+    - "Nimbekar A, Katti P, Li C, et al. <b>Hardware-Software Co-optimized Inference Accelerator for Deep Spiking Networks</b>. <i>IEEE International System-on-Chip Conference 2024</i> (SOCC).<br><small>Proposing a hardware accelerator for Spiking Neural Networks.</small>"
+    - "Katti P, Nimbekar A, Li C, et al. <b>Bayesian Inference Accelerator for Spiking Neural Networks</b>. <i>IEEE International Symposium on Circuits and Systems 2024</i> (ISCAS).<br><small>Developed a Bayesian accelerator to enhance the performance of Bayesian Spiking Neural Networks.</small>"
+    - "Li C, Rajendran B. <b>Noise Adaptor in Spiking Neural Network</b>.<br><small>Propose a plug-in-and-play module to improve both accuracy and scalability of Spiking Neural Networks.</small>"
+    - "Li C, Furber S, et al. <b>Quantization Framework for Fast Spiking Neural Networks</b>. <i>Frontiers in Neuroscience</i>, 2022, 16: 918793.<br><small>The state-of-the-art method to build ultra-low-latency Spiking Neural Networks on ImageNet.</small>"
+    - "Li C, Furber S. <b>Towards Biologically-Plausible Neuron Models and Firing Rates in High-Performance Deep Spiking Neural Networks</b>. <i>International Conference on Neuromorphic Systems 2021</i>.<br><small>Proposed a method to smooth spiking neurons by noise injections to achieve state-of-the-art accuracy.</small>"
+    - "Chen R, Li C, Li Y, et al. <b>Nanoscale Room-Temperature Multilayer Skyrmionic Synapse for Deep Spiking Neural Networks</b>. <i>Physical Review Applied</i>, 2020, 14(1): 014096.<br><small>Proposed an Analog-in-memory computing (AIMC) architecture to accelerate Spiking Neural Networks.</small>"
+    - "Li C, Chen R, Moutafis C, et al. <b>Robustness to Noisy Synaptic Weights in Spiking Neural Networks</b>. <i>International Joint Conference on Neural Networks 2020</i> (IJCNN).<br><small>Demonstrated how noise in synapses affects neural network (both spiking and non-spiking) performance.</small>"
 
 - title: Professional Engagement
   type: nested_list
