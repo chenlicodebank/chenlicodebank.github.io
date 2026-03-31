@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Applied Scientist at SpiNNcloud. Postdoc at King&#39;s College London. Ph.D. from University of Manchester. Research interests include neuromorphic computing, spiking neural networks, and analog in-memory computing.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
