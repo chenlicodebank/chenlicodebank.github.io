@@ -1,8 +1,8 @@
 {% assign repo_url = include.repository | split: '/' %}
 
-<div class="repo p-2 text-center">
+<div class="repo p-2 text-md-fill" style="flex: 1 1 0; min-width: 250px;">
   <a href="https://github.com/{{ include.repository }}" style="text-decoration: none; color: inherit;">
-    <div class="card hoverable" style="display: inline-block; max-width: 400px; width: 100%;">
+    <div class="card hoverable h-100">
       <div class="card-body text-left">
         <h5 class="card-title mb-1">
           <i class="fab fa-github" style="margin-right: 6px;"></i>{{ repo_url[1] }}
