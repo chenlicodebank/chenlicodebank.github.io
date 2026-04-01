@@ -2,24 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Applied Scientist at <a href='https://spinncloud.com/'>SpiNNcloud Systems</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Barbican, London, UK</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Applied Scientist at SpiNNcloud Systems, working on neuromorphic computing algorithms and hardware. Previously, I was a Research Associate (Postdoc) at King's College London in the King's Laboratory for Intelligent Computing (PI: Prof. Bipin Rajendran). I obtained my Ph.D. in Computer Science from the University of Manchester, supervised by Prof. Steve Furber.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests span **neuromorphic computing**, **spiking neural networks**, **analog in-memory computing**, and **large language models**. My work focuses on noise-resilient full-stack neuromorphic AI, spanning algorithms, components, devices, and hardware adaptation for efficient and resilient AI.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Selected Publications:**
+- *Quantization framework for fast spiking neural networks* (Frontiers in Neuroscience, 2022)
+- *Nanoscale room-temperature multilayer skyrmionic synapse for deep spiking neural networks* (Physical Review Applied, 2020)
+- *Unleashing the potential of spiking neural networks with dynamic confidence* (ICCV 2023)
+- *Heterogeneous embedded neural processing units utilizing PCM-based analog in-memory computing* (IEDM 2024)
+- *Efficient transformer adaptation for analog in-memory computing via low-rank adapters* (Neuromorphic Computing and Engineering, 2026)
