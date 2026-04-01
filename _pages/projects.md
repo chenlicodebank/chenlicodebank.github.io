@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research projects on noise-resilient full-stack neuromorphic AI.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Algorithms, Devices & Hardware]
 horizontal: false
 ---
 
