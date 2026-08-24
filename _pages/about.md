@@ -20,4 +20,4 @@ I am an Applied Scientist at SpiNNcloud Systems, working on neuromorphic computi
 
 My research interests include **neuromorphic computing**, **spiking neural networks**, **analog in-memory computing**, and **large language models**. I take a full-stack approach that spans algorithms, components, devices, and hardware adaptation and deployment for efficient, resilient AI.
 
-I am also interested in reinforcement learning and very new to Triton/tilelang kernel development. Lately I have become rather addicted to competitions: at the [MARS2 Workshop Challenge](https://github.com/chenlicodebank/mars2-saucy-eccv2026) (ECCV 2026), our team placed **3rd in the Video Temporal Grounding track** and finished in the **top 6 across all three tracks**.
+Outside my main role, I pursue side projects in reinforcement learning and multimodal reasoning. Most recently, I fine-tuned Qwen3-VL-4B using GRPO for the [MARS2 Multimodal Reasoning Challenge](https://github.com/chenlicodebank/mars2-saucy-eccv2026) at ECCV 2026. Our two-person team placed 3rd in Video Temporal Grounding and achieved top-six finishes across all three tracks.
