@@ -10,6 +10,7 @@ category: Devices & Hardware
 Nanoscale multilayer skyrmion synapse using repeated [HM1/FM/HM2] stacks (n=4 repeats). The multilayer structure stabilizes skyrmions at room temperature (300K).
 
 **Features:**
+
 - 6 discrete synaptic states
 - Non-volatile, CMOS-compatible
 
@@ -21,4 +22,4 @@ Nanoscale multilayer skyrmion synapse using repeated [HM1/FM/HM2] stacks (n=4 re
     </div>
 </div>
 
-**Publication:** Chen R, Li C, Li Y, et al. *Nanoscale Room-Temperature Multilayer Skyrmionic Synapse for Deep Spiking Neural Networks*. Physical Review Applied, 2020.
+**Publication:** Chen R, Li C, Li Y, et al. _Nanoscale Room-Temperature Multilayer Skyrmionic Synapse for Deep Spiking Neural Networks_. Physical Review Applied, 2020.

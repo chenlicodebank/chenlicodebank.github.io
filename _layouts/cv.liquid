@@ -24,7 +24,9 @@ layout: default
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
       {% endif %}
-      <p class="post-description"><small>Last updated: {{ site.time | date: "%B, %Y" }}</small></p>
+      <p class="post-description">
+        <small>Last updated: {{ site.time | date: '%B, %Y' }}</small>
+      </p>
     </header>
 
     <article>

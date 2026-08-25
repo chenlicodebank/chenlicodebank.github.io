@@ -10,6 +10,7 @@ category: Algorithms
 The Noise Adaptor injects controllable noise during ANN quantization training to model SNN spike dynamics. This enables seamless end-to-end conversion without runtime noise correction.
 
 **Key Results:**
+
 - CIFAR-10 (ResNet-18): 95.26% (T=2), 95.95% (T=4), 96.61% (T=8), 96.72% (T=16)
 - ImageNet (ResNet-50): 37.08% (T=2), 58.76% (T=4), 71.50% (T=8), 75.69% (T=16)
 
@@ -19,4 +20,4 @@ The Noise Adaptor injects controllable noise during ANN quantization training to
     </div>
 </div>
 
-**Publication:** Li C, Rajendran B. *Noise Adaptor in Spiking Neural Networks*. arXiv 2024.
+**Publication:** Li C, Rajendran B. _Noise Adaptor in Spiking Neural Networks_. arXiv 2024.

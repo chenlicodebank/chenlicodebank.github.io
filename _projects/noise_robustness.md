@@ -10,6 +10,7 @@ category: Algorithms
 Spiking neural networks (SNNs) process information through discrete spikes accumulated over time. This temporal integration acts as a natural noise filter: the signal-to-noise ratio increases with the number of spikes per synapse, making SNNs inherently more robust to synaptic weight noise than ANNs.
 
 **Key Results:**
+
 - SNN shows <0.2% accuracy drop vs ANN shows 75% accuracy drop (CNN on MNIST; noise level = 100% x max weight)
 
 <div class="row">
@@ -18,4 +19,4 @@ Spiking neural networks (SNNs) process information through discrete spikes accum
     </div>
 </div>
 
-**Publication:** Li C, Chen R, Moutafis C, Furber S. *Robustness to Noisy Synaptic Weights in Spiking Neural Networks*. IJCNN 2020.
+**Publication:** Li C, Chen R, Moutafis C, Furber S. _Robustness to Noisy Synaptic Weights in Spiking Neural Networks_. IJCNN 2020.

@@ -8,14 +8,14 @@ repository; this fork keeps only the content and the configuration behind the li
 
 ## Where the content lives
 
-| Path                        | What                                                                       |
-| --------------------------- | -------------------------------------------------------------------------- |
-| `_pages/`                   | One file per page. `nav:` and `nav_order:` in the front matter set the navbar. |
-| `_bibliography/papers.bib`  | Publications. `selected={true}` also promotes an entry to the landing page.  |
-| `_projects/`                | One card per research project.                                              |
-| `_data/`                    | CV (`cv.yml`), social links, repositories, coauthors, venues.                |
-| `_posts/`, `_news/`         | Blog posts and short announcements. Currently empty.                         |
-| `_config.yml`               | Site identity, SEO keywords, and the section toggles.                        |
+| Path                       | What                                                                           |
+| -------------------------- | ------------------------------------------------------------------------------ |
+| `_pages/`                  | One file per page. `nav:` and `nav_order:` in the front matter set the navbar. |
+| `_bibliography/papers.bib` | Publications. `selected={true}` also promotes an entry to the landing page.    |
+| `_projects/`               | One card per research project.                                                 |
+| `_data/`                   | CV (`cv.yml`), social links, repositories, coauthors, venues.                  |
+| `_posts/`, `_news/`        | Blog posts and short announcements. Currently empty.                           |
+| `_config.yml`              | Site identity, SEO keywords, and the section toggles.                          |
 
 ## Running it locally
 

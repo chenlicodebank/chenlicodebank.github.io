@@ -22,6 +22,7 @@ Compresses ANN activation precision to 2-bit and suppresses "occasional noise" i
 A runtime optimization that decodes confidence from SNN spike outputs and terminates inference early when confident.
 
 **Key Results:**
+
 - Reduces latency by 26-36% on ImageNet with no accuracy loss
 - VGG-16 QFFS: 72.52% accuracy, reduced from 4 to 2.86 avg. timesteps (29% saving)
 - ResNet-50 QFFS: 73.17% accuracy, reduced from 6 to 4.42 avg. timesteps (26% saving)
@@ -33,5 +34,6 @@ A runtime optimization that decodes confidence from SNN spike outputs and termin
 </div>
 
 **Publications:**
-- Li C, Ma L, Furber S. *Quantization Framework for Fast Spiking Neural Networks*. Frontiers in Neuroscience, 2022.
-- Li C, Jones E, Furber S. *Unleashing the Potential of Spiking Neural Networks with Dynamic Confidence*. ICCV 2023.
+
+- Li C, Ma L, Furber S. _Quantization Framework for Fast Spiking Neural Networks_. Frontiers in Neuroscience, 2022.
+- Li C, Jones E, Furber S. _Unleashing the Potential of Spiking Neural Networks with Dynamic Confidence_. ICCV 2023.
