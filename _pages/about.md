@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Applied Scientist at <a href='https://spinncloud.com/'>SpiNNcloud Systems</a>
+subtitle: Applied Scientist at <a href='https://www.sparxity.ai/'>Sparxity</a>
 
 profile:
   align: right
@@ -16,8 +16,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an Applied Scientist at SpiNNcloud Systems, working on neuromorphic computing, large language models(LLMs), and LLM-neuromorphic-hardware co-design. Previously, I was a Research Associate (Postdoc) at King's College London (PI: Prof. Bipin Rajendran). I obtained my Ph.D. in Computer Science from the University of Manchester, supervised by Prof. Steve Furber.
+I am an Applied Scientist at Sparxity (formerly SpiNNcloud Systems), working on continual pretraining and post-training of large language models (LLMs). Previously, I was a Postdoc at King's College London (PI: Prof. Bipin Rajendran). I obtained my Ph.D. in Computer Science from the University of Manchester, supervised by Prof. Steve Furber.
 
-My research interests include **neuromorphic computing**, **spiking neural networks**, **analog in-memory computing**, and **large language models**. I take a full-stack approach that spans algorithms, components, devices, and hardware adaptation and deployment for efficient, resilient AI.
+My research interests include **continual pretraining**, **reasoning**, and **self-improvement** of LLMs. I am also interested in **hardware-algorithm co-design** for analog in-memory computing and neuromorphic hardware.
 
-Outside my main role, I pursue side projects in reinforcement learning and multimodal reasoning. Most recently, I fine-tuned Qwen3-VL-4B using GRPO for the [MARS2 Multimodal Reasoning Challenge](https://github.com/chenlicodebank/mars2-saucy-eccv2026) at ECCV 2026. Our two-person team placed 3rd in Video Temporal Grounding and achieved top-six finishes across all three tracks.
+Recently, I have been taking part in AI competitions to understand the current performance ceiling of LLMs. I placed 2nd in the Main Track and 3rd in the Open-Weight Track of the [QuantiPhy Challenge](https://github.com/chenlicodebank/quantiphy-2026-team-cookie) on quantitative physical reasoning at NeurIPS 2026, and 3rd in the Video Temporal Grounding track of the [MARS2 Multimodal Reasoning Challenge](https://github.com/chenlicodebank/mars2-saucy-eccv2026) at ECCV 2026.
+
+I will be at NeurIPS 2026 in Sydney this December, so feel free to [email me](mailto:{{ site.data.socials.email | encode_email }}) if you would like to meet and chat about self-improvement, context management, or novel decoding methods for LLMs.
