@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an Applied Scientist at Sparxity (formerly SpiNNcloud Systems), working on continual pretraining and post-training of large language models (LLMs). Previously, I was a Postdoc at King's College London (PI: Prof. Bipin Rajendran). I obtained my Ph.D. in Computer Science from the University of Manchester, supervised by Prof. Steve Furber.
+I am an Applied Scientist at Sparxity (formerly SpiNNcloud Systems), working on continual pretraining and post-training of large language models. Previously, I was a Postdoc at King's College London. I obtained my Ph.D. in Computer Science from the University of Manchester, supervised by Prof. Steve Furber.
 
 My research interests include **continual pretraining**, **reasoning**, and **self-improvement** of LLMs. I am also interested in **hardware-algorithm co-design** for analog in-memory computing and neuromorphic hardware.
 
