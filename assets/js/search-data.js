@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-cv",
           title: "cv",
-          description: "Currently an Applied Scientist at Sparxity (formerly SpiNNcloud Systems). Previously Postdoc at King&#39;s College London. Ph.D. from University of Manchester. Research interests include continual pretraining, reasoning, and self-improvement of large language models, and hardware-algorithm co-design for analog in-memory computing and neuromorphic hardware.",
+          description: "Currently an Applied Scientist at Sparxity (formerly SpiNNcloud Systems). Previously Postdoc at King&#39;s College London. Ph.D. from University of Manchester. Working on architecture retrofitting and post-training of large language models. Research interests include post-training with reinforcement learning, self-improvement, and decoding methods for large language models.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
