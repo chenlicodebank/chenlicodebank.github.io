@@ -42,13 +42,14 @@
 - title: Publications
   type: list
   contents:
-    - "Boybat I, Boesch T, Allegra M, et al. <b>Heterogeneous Embedded Neural Processing Units Utilizing PCM-based Analog In-Memory Computing</b>. <i>IEEE International Electron Devices Meeting</i> (Invited paper in IEDM).<br><small>Built an analog chip to accelerate MobileBERT inference compared to running on GPUs.</small>"
-    - "Li C, Jones E, Furber S. <b>Unleashing the Potential of Spiking Neural Networks by Dynamic Confidence</b>. <i>International Conference on Computer Vision 2023</i> (ICCV).<br><small>Proposed a Neural Network decoding method based on temporal confidence.</small>"
-    - "Li C, Ferro E, Lammie C, et al. <b>Efficient Transformer Adaptation for Analog In-Memory Computing via Low-Rank Adapters</b>. <i>Neuromorphic Computing and Engineering</i>.<br><small>Llama 3 8B adaptations on analog hardware via Reinforcement Learning and long Chain-of-Thoughts.</small>"
-    - "Nimbekar A, Katti P, Li C, et al. <b>Hardware-Software Co-optimized Inference Accelerator for Deep Spiking Networks</b>. <i>IEEE International System-on-Chip Conference 2024</i> (SOCC).<br><small>Proposing a hardware accelerator for Spiking Neural Networks.</small>"
+    - "Li C, Akl M. <b>Which Key–Value Cache Compressions Can Continued Pretraining Repair?</b> Under review at the <i>International Conference on Learning Representations 2027</i> (ICLR).<br><small>Measured what continued pretraining recovers after a key/value-cache conversion: keyed multi-key retrieval is lost while standard benchmarks recover.</small>"
+    - "Boybat I, Boesch T, Allegra M, et al. <b>Heterogeneous Embedded Neural Processing Units Utilizing PCM-based Analog In-Memory Computing</b>. <i>IEEE International Electron Devices Meeting 2024</i> (Invited paper in IEDM).<br><small>Built an analog chip to accelerate MobileBERT inference compared to running on GPUs.</small>"
+    - "Li C, Jones E, Furber S. <b>Unleashing the Potential of Spiking Neural Networks with Dynamic Confidence</b>. <i>International Conference on Computer Vision 2023</i> (ICCV).<br><small>Proposed a Neural Network decoding method based on temporal confidence.</small>"
+    - "Li C, Ferro E, Lammie C, et al. <b>Efficient Transformer Adaptation for Analog In-Memory Computing via Low-Rank Adapters</b>. <i>Neuromorphic Computing and Engineering</i>, 2026, 6: 014011.<br><small>Llama 3.1 8B adaptations on analog hardware via Reinforcement Learning and long Chain-of-Thoughts.</small>"
+    - "Nimbekar A, Katti P, Li C, et al. <b>Hardware-Software Co-optimised Fast and Accurate Deep Reconfigurable Spiking Inference Accelerator Architecture Design Methodology</b>. <i>IEEE International System-on-Chip Conference 2024</i> (SOCC).<br><small>Proposing a hardware accelerator for Spiking Neural Networks.</small>"
     - "Katti P, Nimbekar A, Li C, et al. <b>Bayesian Inference Accelerator for Spiking Neural Networks</b>. <i>IEEE International Symposium on Circuits and Systems 2024</i> (ISCAS).<br><small>Developed a Bayesian accelerator to enhance the performance of Bayesian Spiking Neural Networks.</small>"
-    - "Li C, Rajendran B. <b>Noise Adaptor in Spiking Neural Network</b>.<br><small>Propose a plug-in-and-play module to improve both accuracy and scalability of Spiking Neural Networks.</small>"
-    - "Li C, Furber S, et al. <b>Quantization Framework for Fast Spiking Neural Networks</b>. <i>Frontiers in Neuroscience</i>, 2022, 16: 918793.<br><small>The state-of-the-art method to build ultra-low-latency Spiking Neural Networks on ImageNet.</small>"
+    - "Li C, Rajendran B. <b>Noise Adaptor in Spiking Neural Networks</b>. arXiv:2312.05290, 2023.<br><small>Proposed a plug-in-and-play module to improve both accuracy and scalability of Spiking Neural Networks.</small>"
+    - "Li C, Ma L, Furber S. <b>Quantization Framework for Fast Spiking Neural Networks</b>. <i>Frontiers in Neuroscience</i>, 2022, 16: 918793.<br><small>The state-of-the-art method to build ultra-low-latency Spiking Neural Networks on ImageNet.</small>"
     - "Li C, Furber S. <b>Towards Biologically-Plausible Neuron Models and Firing Rates in High-Performance Deep Spiking Neural Networks</b>. <i>International Conference on Neuromorphic Systems 2021</i>.<br><small>Proposed a method to smooth spiking neurons by noise injections to achieve state-of-the-art accuracy.</small>"
     - "Chen R, Li C, Li Y, et al. <b>Nanoscale Room-Temperature Multilayer Skyrmionic Synapse for Deep Spiking Neural Networks</b>. <i>Physical Review Applied</i>, 2020, 14(1): 014096.<br><small>Proposed an Analog-in-memory computing (AIMC) architecture to accelerate Spiking Neural Networks.</small>"
     - "Li C, Chen R, Moutafis C, et al. <b>Robustness to Noisy Synaptic Weights in Spiking Neural Networks</b>. <i>International Joint Conference on Neural Networks 2020</i> (IJCNN).<br><small>Demonstrated how noise in synapses affects neural network (both spiking and non-spiking) performance.</small>"
@@ -58,7 +59,7 @@
   contents:
     - title: Conference Reviewer
       items:
-        - "AAAI2022, ICML2022, ICML2024, EDTM2024, NeurIPS2024 NeuroAI Workshop, ICLR2025 (Notable Reviewer), ISCAS2023, NeurIPS2025 Dataset and Benchmark Track, ICLR2026, NeurIPS2026"
+        - "AAAI2022, ICML2022, ICML2024, EDTM2024, NeurIPS2024 NeuroAI Workshop, ICLR2025 (Notable Reviewer), ISCAS2023, NeurIPS2025 Dataset and Benchmark Track, ICLR2026, NeurIPS2026, ICLR2027"
     - title: Journal Reviewer
       items:
         - "Neural Networks, Neurocomputing, TNNLS, TETCI, Transactions on Consumer Electronics, Frontiers in Neuroscience, Frontiers in Computational Neuroscience, Frontiers in Artificial Intelligence, Frontiers in Oncology"
@@ -73,6 +74,8 @@
 - title: Presentations
   type: time_table
   contents:
+    - title: Royal Society Discussion Meeting, Innovating Technologies for Neuromorphic Computing, London — Poster Presentation
+      year: 2026
     - title: Workshop on Neuromorphic Computing, Egham — Invited Presentation
       year: 2025
     - title: Spiking Neural Networks as Universal Function Approximators — Poster Presentation
