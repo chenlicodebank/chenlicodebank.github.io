@@ -9,11 +9,11 @@ last_name: Li
 contact_note: >
   Feel free to reach out via email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal academic website of Chen Li. Research in continual pretraining, reasoning, and self-improvement of large language models, and hardware-algorithm co-design for analog in-memory computing and neuromorphic hardware.
+  Personal academic website of Chen Li. Research in post-training with reinforcement learning, self-improvement, and decoding methods for large language models.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Chen Li, Sparxity, SpiNNcloud, continual pretraining, post-training, LLM reasoning, self-improvement, hardware-algorithm co-design, QuantiPhy, MARS2, NeurIPS, ECCV, neuromorphic computing, spiking neural networks, SNN, analog in-memory computing, large language models, applied scientist, University of Manchester, King's College London, KCL, Bipin Rajendran, Steve Furber, ICCV, IEDM, dynamic confidence, LoRA, reinforcement learning
+keywords: Chen Li, Sparxity, SpiNNcloud, architecture retrofitting, post-training, reinforcement learning, self-improvement, decoding, LLM reasoning, QuantiPhy, MARS2, NeurIPS, ECCV, neuromorphic computing, spiking neural networks, SNN, analog in-memory computing, large language models, applied scientist, University of Manchester, King's College London, KCL, Bipin Rajendran, Steve Furber, ICCV, IEDM, dynamic confidence, LoRA
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
