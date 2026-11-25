@@ -13,130 +13,63 @@
       value: <a href="https://twitter.com/ArtwistLi" target="_blank">@ArtwistLi</a>
     - name: Google Scholar
       value: <a href="https://scholar.google.com/citations?user=NPm503cAAAAJ&hl=en" target="_blank">scholar.google.com</a>
-- title: Expertise and Research Approach
-  type: list
-  contents:
-    - "<b>Architecture Retrofitting and Post-Training</b>: I retrofit pretrained LLMs with more efficient architectures and repair them with continued training. I designed post-hoc sparse attention for GQA LLMs; at a 50% attention budget it matches dense-model accuracy on long-context benchmarks (RULER retention 98.5% at 16K). I measured which key/value-cache compressions continued pretraining can repair (ICLR 2027, under review). I post-train LLMs and vision-language models with reinforcement learning (GRPO), and improve training throughput and stability through attention variants, MoE ablations and optimizers such as Muon."
-    - "<b>Test-Time Reasoning and Decoding</b>: I placed 2nd in the Main Track and 3rd in the Open-Weight Track of the QuantiPhy Challenge (NeurIPS 2026) with coding agents that answer each question about a video by measuring it in code. My sparse-attention decode path runs 2.44x faster per token than compiled dense FlashAttention at 16K context on GH200 (3.22x at 64K). Earlier I proposed a decoding method based on temporal confidence that accelerated spiking networks by ~40% (ICCV 2023). I developed algorithms for quantization, denoising and test-time decoding, and improved model reliability through uncertainty calibration, supervised fine-tuning and Low-Rank Adaptation (LoRA)."
-    - "<b>AI Agents and Self-Improvement</b>: I build agent systems that improve under measurement. I run my research and competition entries through fleets of coding agents and judge their results against measured evaluations, and a change to my agent control plane is kept only when a test fails before it and passes after it."
-    - "<b>Hardware Background</b>: I have hands-on deployment experience on diverse hardware platforms, including GPUs, neuromorphic hardware (SpiNNaker and SpiNNaker2), and analog AI chips (prototyped by IBM), optimizing performance for CNNs and transformers."
-    - "<b>Leadership and Collaboration</b>: I have led research projects from idea to publication, assembling the teams myself, and delivered in multidisciplinary teams of over 50 members."
-    - "<b>Technical Skills</b>: Python, PyTorch, TorchTitan; training on GH200 machines and Slurm clusters (MareNostrum 5); Claude Code, Codex."
-- title: Research and Working Experience
-  type: time_table
-  contents:
-    - title: Applied Scientist
-      year: 2025 - now
-      institution: Algorithm Team, Sparxity (formerly SpiNNcloud Systems), Germany
-      maindescription: "Project: Several EU-funded projects including EdgeVision, EIC, PRIMI, etc."
-      description:
-        - Scaling LLM from 1B to 8B by sparse-aware pretraining and distilling.
-        - Delivered sparse attention to the EIC project.
-        - Improving training throughput and stability via attention variants, MoE ablations, and optimizers (e.g., Muon).
-        - Accelerated LLM inference efficiently by designing and deploying customized algorithms for AI chips.
-        - Conducted joint academic and industry R&amp;D spanning algorithm-hardware co-design to inform roadmap and technical strategy.
-    - title: Research Associate (Postdoc)
-      year: 2022 - 2024
-      institution: "King's Laboratory for Intelligent Computing (PI: Prof. Bipin Rajendran), King's College London"
-      maindescription: "Project: NeuroSoC (EU-funded). Project Goal: Achieving 100 times energy efficiency (TOPS/W) through In-memory Computing."
-      description:
-        - Fine-tuned Llama 3.1 8B on Alpaca to enhance LLM performance on noisy hardware.
-        - Created an integer-only NN inference engine for NN operations, optimizing inference efficiency.
-        - Led robustness improvements of MobileBERT, deploying it on IBM's analog chip, boosting chip noise resilience.
-        - Accelerated bio-inspired NNs by ~40% via decoding and uncertainty verifying (published at ICCV 2023).
-        - Coordinated with industry partners (STMicroelectronics, IBM, etc.); presented findings bi-weekly.
-        - Authored the project deliverables for EU Commission review.
-    - title: Research Assistant
-      year: 2018 - 2022
-      institution: "Advanced Processor Technologies (PI: Prof. Steve Furber), University of Manchester, United Kingdom"
-      maindescription: "Project: SpiNNaker (part of EU flagship Human Brain Project). Project Goal: mimicking the structure and function of the human brain on silicon and simulating 1% of the human brain by efficiently running and connecting 1 million ARM cores."
-      description:
-        - Led the first DNN deployment on the SpiNNaker brain-inspired hardware.
-        - Enhanced accuracy and robustness of NNs mapped on room-temperature physical devices.
-        - Developed an acceleration framework for building low-latency bio-inspired NNs, using information compression and denoising.
-    - title: Research Intern
-      year: "2021"
-      institution: Beijing Academy of Artificial Intelligence, China
-      maindescription: "Intern Project: Neuromorphic Computing (funded by BAAI and Peking University)."
-      description:
-        - Developed low-latency neuromorphic algorithms.
-        - Collaborated with neuroscientists to mimic visual hierarchical dynamics to speed up NNs.
-- title: Selected Projects and Competitions
-  type: time_table
-  contents:
-    - title: QuantiPhy Challenge (NeurIPS 2026 Competition Track) — 2nd in the Main Track, 3rd in the Open-Weight Track
-      year: "2026"
-      institution: Team Cookie, side project with Luhui (May) Liu
-      description:
-        - "Built coding-agent pipelines that answer quantitative physics questions about videos by measuring in code: a question-blind scene record per video, then one fresh agent session per question that measures and converts pixels to metres."
-        - "Open-Weight Track: DeepSeek-V4.1-Flash in the DeepSeek Harness with SAM 3 segmentation and tracking as tools, taking the median of 2 to 6 sessions per question. Main Track: Claude Opus in Claude Code, combined per question with that median."
-        - Released the <a href="https://github.com/chenlicodebank/quantiphy-2026-team-cookie" target="_blank">code, method and recorded outputs</a>, which rebuild both submissions byte for byte.
-    - title: MARS2 2026 Multimodal Reasoning Challenge (ECCV 2026) — 3rd in Video Temporal Grounding
-      year: "2026"
-      institution: Team Saucy, side project with Luhui (May) Liu
-      description:
-        - Post-trained Qwen3-VL-4B with GRPO on a temporal IoU reward, driven by a timestamped audio-evidence timeline; top six in all three tracks.
-        - Released the <a href="https://github.com/chenlicodebank/mars2-saucy-eccv2026" target="_blank">code</a> and <a href="https://huggingface.co/chenliforai/mars2-saucy-aet-grpo-requeued" target="_blank">model weights</a>.
-- title: Publications
-  type: list
-  contents:
-    - "Li C, Akl M. <b>Which Key–Value Cache Compressions Can Continued Pretraining Repair?</b> <i>Under review at the International Conference on Learning Representations 2027 (ICLR)</i>.<br><small>Measured what continued pretraining recovers after a key/value-cache conversion: keyed multi-key retrieval is lost while standard benchmarks recover.</small>"
-    - "Li C, Ferro E, Lammie C, et al. <b>Efficient Transformer Adaptation for Analog In-Memory Computing via Low-Rank Adapters</b>. <i>Neuromorphic Computing and Engineering, 2026, 6: 014011</i>.<br><small>Llama 3.1 8B adaptations on analog hardware via Reinforcement Learning and long Chain-of-Thoughts.</small>"
-    - Boybat I, Boesch T, Allegra M, et al. <b>Heterogeneous Embedded Neural Processing Units Utilizing PCM-based Analog In-Memory Computing</b>. <i>IEEE International Electron Devices Meeting 2024 (Invited paper in IEDM)</i>.<br><small>Built an analog chip to accelerate MobileBERT inference compared to running on GPUs.</small>
-    - Nimbekar A, Katti P, Li C, et al. <b>Hardware-Software Co-optimised Fast and Accurate Deep Reconfigurable Spiking Inference Accelerator Architecture Design Methodology</b>. <i>IEEE International System-on-Chip Conference 2024 (SOCC)</i>.<br><small>Proposing a hardware accelerator for Spiking Neural Networks.</small>
-    - Katti P, Nimbekar A, Li C, et al. <b>Bayesian Inference Accelerator for Spiking Neural Networks</b>. <i>IEEE International Symposium on Circuits and Systems 2024 (ISCAS)</i>.<br><small>Developed a Bayesian accelerator to enhance the performance of Bayesian Spiking Neural Networks.</small>
-    - Li C, Jones E, Furber S. <b>Unleashing the Potential of Spiking Neural Networks with Dynamic Confidence</b>. <i>International Conference on Computer Vision 2023 (ICCV)</i>.<br><small>Proposed a Neural Network decoding method based on temporal confidence.</small>
-    - Li C, Rajendran B. <b>Noise Adaptor in Spiking Neural Networks</b>. <i>arXiv:2312.05290, 2023</i>.<br><small>Proposed a plug-in-and-play module to improve both accuracy and scalability of Spiking Neural Networks.</small>
-    - "Li C, Ma L, Furber S. <b>Quantization Framework for Fast Spiking Neural Networks</b>. <i>Frontiers in Neuroscience, 2022, 16: 918793</i>.<br><small>The state-of-the-art method to build ultra-low-latency Spiking Neural Networks on ImageNet.</small>"
-    - "Li C, Furber S. <b>Towards Biologically-Plausible Neuron Models and Firing Rates in High-Performance Deep Spiking Neural Networks</b>. <i>International Conference on Neuromorphic Systems 2021: 1-7</i>.<br><small>Proposed a method to smooth spiking neurons by noise injections to achieve state-of-the-art accuracy.</small>"
-    - "Chen R, Li C, Li Y, et al. <b>Nanoscale Room-Temperature Multilayer Skyrmionic Synapse for Deep Spiking Neural Networks</b>. <i>Physical Review Applied, 2020, 14(1): 014096</i>.<br><small>Proposed an Analog-in-memory computing (AIMC) architecture to accelerate Spiking Neural Networks.</small>"
-    - "Li C, Chen R, Moutafis C, et al. <b>Robustness to Noisy Synaptic Weights in Spiking Neural Networks</b>. <i>International Joint Conference on Neural Networks 2020 (IJCNN). IEEE, 2020: 1-8</i>.<br><small>Demonstrated how the noise in synapses affects neural network (both spiking and non-spiking) performance.</small>"
+
 - title: Education
   type: time_table
   contents:
     - title: Ph.D. in Computer Science
-      year: 2018 - 2022
       institution: University of Manchester, United Kingdom
+      year: 2018 - 2022
       description:
         - "Supervisor: Prof. Steve Furber"
     - title: MSc in Spintronics and Quantum Optics
-      year: 2015 - 2018
       institution: Shanxi University, China
+      year: 2015 - 2018
     - title: BSc in Applied Physics
-      year: 2011 - 2015
       institution: Nanchang University, China
+      year: 2011 - 2015
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Applied Scientist
+      institution: "Algorithm Team, Sparxity (formerly SpiNNcloud Systems), Germany"
+      year: 2025 - now
+    - title: Research Associate (Postdoc)
+      institution: "King's Laboratory for Intelligent Computing (PI: Prof. Bipin Rajendran), King's College London, UK"
+      year: 2022 - 2024
+
 - title: Professional Engagement
   type: nested_list
   contents:
     - title: Conference Reviewer
       items:
-        - AAAI 2022, ICML 2022, ICML 2024, EDTM 2024, NeurIPS 2024 NeuroAI workshop, ICLR 2025 (Notable Reviewer), ISCAS 2023, NeurIPS 2025 Dataset and Benchmark track, ICLR 2026, NeurIPS 2026, ICLR 2027
+        - "AAAI2022, ICML2022, ICML2024, EDTM2024, NeurIPS2024 NeuroAI Workshop, ICLR2025 (Notable Reviewer), ISCAS2023, NeurIPS2025 Dataset and Benchmark Track, ICLR2026, NeurIPS2026, ICLR2027"
     - title: Journal Reviewer
       items:
-        - Neural Networks, Neurocomputing, TNNLS, TETCI, Transactions on Consumer Electronics, Frontiers in Neuroscience, Frontiers in Computational Neuroscience, Frontiers in Artificial Intelligence, Frontiers in Oncology
+        - "Neural Networks, Neurocomputing, TNNLS, TETCI, Transactions on Consumer Electronics, Frontiers in Neuroscience, Frontiers in Computational Neuroscience, Frontiers in Artificial Intelligence, Frontiers in Oncology"
     - title: Editor
       items:
-        - Frontiers in Computational Neuroscience (Guest editor)
+        - Frontiers in Computational Neuroscience (Guest Editor)
     - title: Mentorship
       items:
-        - Postgrad Research Mentor, Department of Computer Science, University of Manchester
-        - King's Undergraduate Research Mentor, Department of Engineering, King's College London
+        - "Postgrad Research Mentor, Department of Computer Science, University of Manchester"
+        - "King's Undergraduate Research Mentor, Department of Engineering, King's College London"
+
 - title: Presentations
   type: time_table
   contents:
     - title: Royal Society Discussion Meeting, Innovating Technologies for Neuromorphic Computing, London — Poster Presentation
-      year: "2026"
-    - title: Guangzhou AI Forum — Poster Presentation
-      year: "2026"
-    - title: Workshop on Neuromorphic Computing, Egham 2025 — Invited Presentation
-      year: "2025"
+      year: 2026
+    - title: Workshop on Neuromorphic Computing, Egham — Invited Presentation
+      year: 2025
     - title: Spiking Neural Networks as Universal Function Approximators — Poster Presentation
-      year: "2023"
+      year: 2023
     - title: International Conference on Computer Vision — Poster Presentation
-      year: "2023"
+      year: 2023
     - title: Neuromorphic Algorithms — Invited Poster Presentation
-      year: "2022"
+      year: 2022
     - title: International Joint Conference on Neural Networks — Presentation
-      year: "2021"
+      year: 2021
     - title: International Conference on Neuromorphic Systems — Presentation
-      year: "2021"
+      year: 2021
